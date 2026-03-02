@@ -7,8 +7,7 @@
 |---|---|
 | **Product** | Consumer Content Hub (fintech.com/stories) |
 | **Document Type** | Product Requirements Document (PRD) |
-| **Version** | 1.0 |
-| **Status** | Draft |
+| **Status** | Completed |
 | **Date** | Q1 2022 |
 | **Platform** | Adobe Experience Manager (AEM) |
 | **Author** | Digital Product |
