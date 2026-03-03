@@ -8,7 +8,9 @@
 | **Product** | Consumer Content Hub (fintech.com/stories) |
 | **Document Type** | Product Requirements Document (PRD) |
 | **Status** | Completed |
-| **Date** | Q1 2022 |
+| **PRD Initiated** | Q1 2022 |
+| **Sprint Zero** | Late March 2022 |
+| **Full Platform Cutover** | May 2023 |
 | **Platform** | Adobe Experience Manager (AEM) |
 | **Author** | Digital Product |
 | **Stakeholders** | Marketing, Digital PO, UX, AEM Tech/Dev, SEO, Accessibility, Tagging |
@@ -298,14 +300,15 @@ The Content Hub MVP follows the standard AEM Design + Build process, with a dedi
 
 ### 10.2 Risks
 
-| Risk | Likelihood | Mitigation |
-|---|---|---|
-| WordPress content doesn't map cleanly to AEM content model | Medium | Conduct content audit and taxonomy mapping before migration sprint; budget for manual cleanup |
-| SEO authority loss during URL migration | Medium | Implement 301 redirects pre-launch; monitor GSC for coverage errors post-launch |
-| Accessibility defects blocking launch | Low–Medium | Involve accessibility team in component design reviews, not just final QA |
-| Scope creep from stakeholder feature requests | High | Lock P0/P1 features at sprint kick-off; route new requests to post-MVP backlog |
-| AEM component development delays | Medium | Front-load component mapping and requirements; identify critical path components early |
-| Content migration volume underestimated | Medium | Audit WordPress content library before committing to migration timeline |
+| Risk | Likelihood | Impact | Mitigation | Status |
+|---|---|---|---|---|
+| WordPress content doesn't map cleanly to AEM content model | Medium | Medium | Conduct content audit and taxonomy mapping before migration sprint; budget for manual cleanup | Anticipated |
+| SEO authority loss during URL migration | Medium | High | Implement 301 redirects pre-launch; monitor GSC for coverage errors post-launch | Anticipated |
+| Accessibility defects blocking launch | Low–Medium | High | Involve accessibility team in component design reviews, not just final QA | Anticipated |
+| Scope creep from stakeholder feature requests | High | Medium | Lock P0/P1 features at sprint kick-off; route new requests to post-MVP backlog | Anticipated |
+| AEM component development delays | Medium | Medium | Front-load component mapping and requirements; identify critical path components early | Anticipated |
+| Content migration volume underestimated | Medium | Medium | Audit WordPress content library before committing to migration timeline | Anticipated |
+| UX resource gap and budget misalignment | High | High | **Realized.** Original project budget allocated capacity for a content author, not a UX designer — creating a structural mismatch when UX design work (reconciling agency-provided styles against the enterprise design system) could not begin. Gap escalated through product and UX leadership to executive level. Resolved by borrowing designer capacity from an adjacent team. Resulted in a multi-month delay before development could begin; Sprint Zero started late March 2022. | ⚠️ Realized |
 
 ---
 
